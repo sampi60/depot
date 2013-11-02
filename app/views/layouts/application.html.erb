@@ -13,6 +13,11 @@
   </div>
   <div id="columns">
     <div id="side">
+
+      <div id='cart'>
+        <%= render @cart %>
+      </div>
+      
       <ul>
         <li><%= link_to 'Home', '/' %></li>
         <li><%= link_to 'Cart', cart_path(session[:cart_id]) %></li>
