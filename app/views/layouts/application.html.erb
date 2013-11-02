@@ -15,7 +15,7 @@
     <div id="side">
       <ul>
         <li><%= link_to 'Home', '/' %></li>
-        <li><a href="http://www..../faq">Questions</a></li>
+        <li><%= link_to 'Cart', cart_path(session[:cart_id]) %></li>
         <li><a href="http://www..../news">News</a></li>
         <li><a href="http://www..../contact">Contact</a></li>
       </ul>
